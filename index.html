@@ -1,0 +1,79 @@
+<!DOCTYPE html> <!-- Esta etiqueta identifica el tipo de documento como HTML -->
+<html lang="en"> <!-- Idioma de la página -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FUENTES GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <!-- ICONO -->
+    <link rel="shortcut icon" href="resources/icon.ico">
+    <!-- ANIMACIONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Tiendamugarg</title>
+</head>
+<body>
+    <header> <!-- ENCABEZADO: incluye la barra de navegacion y el logo -->
+        <nav class="header__nav"> <!-- Barra de navegacion o menu -->
+            <ul class="header__lista">
+                <img class="header__logo animate__animated animate__flash animate__delay-3s animate__infinite"  src="resources/logo.png">
+                <li class="header__item"><a href="#">Inicio</a></li>
+                <li class="header__item"><a href="pages/contacto.html">Contacto</a></li>
+                <li class="header__item"><a href="pages/productos.html">Productos</a></li>
+                <li class="header__item"><a href="pages/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+                <li class="header__item"><a href="pages/sobre-nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> <!-- Todo el contenido de la página que no sea header o footer  -->
+        <!-- SECCION PRINCIPAL -->
+        <section>
+            <h1>BIENVENIDOS A TIENDA MUG</h1>
+            <h2>TAZAS CON ONDA!</h2>
+            <p class="parrafo-principal">Tenemos los diseños más divertidos para elegir mientras disfrutas de un muy rico café. </p>
+        </section>
+        <!-- 2DA SECCION -->
+        <section>
+            <div>
+                <img class="imagen-principal" src="resources/Img_principal.jpg" alt="Imagen principal">
+            </div>    
+        </section>
+        <!-- 3RA SECCION -->
+        <section>
+            <article>
+                <div class="seccion3">
+                    <h2> ELEGI TU DISEÑO </h2>
+                    <p class="seccion3__parrafo"> Diseñamos tu taza con tu logo </p>
+                    <img class="seccion3__imagen" src="resources/tu-logo-aqui.png" alt="Tu logo aquí">
+                    <p class="seccion3__parrafo"> Tu logo aquí </p>
+                </div>
+            </article>  
+        </section>
+        <!-- 4TA SECCION -->
+        <section>
+            <article>
+                <div class="seccion4">
+                    <h2> TAZAS MÁGICAS </h2>
+                    <p class="seccion4__parrafo">Llegaron las nuevas tazas mágicas!</p>
+                    <iframe class="seccion4__video" width="560" height="315" src="https://www.youtube.com/embed/3zk9sGj1M_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>   
+            </article>    
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <h3 class="footer__redes"> Seguinos en nuestras redes sociales</h3>
+        <div class="footer__img">
+            <a class="footer__instagram" href="https://www.instagram.com/tiendamugarg/?hl=es"><img src="resources/instagram-32x32.png" alt="Instagram"></a>
+            <a class="footer__facebook"  href="https://www.facebook.com/profile.php?id=100042932196882"><img src="resources/facebook-32x32.png" alt="Facebook"></a>
+            <a class="footer__whatsapp"  href="https://wa.me/5492320673676"><img src="resources/whatsapp-32x32.png" alt="Whatsapp"></a>
+        </div>
+        <p class="footer__derechos"> Copyright 2022 © Tienda Mug! Todos los derechos reservados </p>
+    </footer>
+
+</body>
+</html>
