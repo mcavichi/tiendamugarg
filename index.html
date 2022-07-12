@@ -19,9 +19,9 @@
 <body>
     <header> <!-- ENCABEZADO: incluye la barra de navegacion y el logo -->
         <nav class="header__nav"> <!-- Barra de navegacion o menu -->
+            <img class="header__logo" src="resources/logo.png" alt="logo">
             <ul class="header__lista">
-                <img class="header__logo animate__animated animate__flash animate__delay-3s animate__infinite"  src="resources/logo.png">
-                <li class="header__item"><a href="#">Inicio</a></li>
+                <li class="header__item animate__animated animate__pulse"><a href="#">Inicio</a></li>
                 <li class="header__item"><a href="pages/contacto.html">Contacto</a></li>
                 <li class="header__item"><a href="pages/productos.html">Productos</a></li>
                 <li class="header__item"><a href="pages/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
@@ -39,29 +39,25 @@
         <!-- 2DA SECCION -->
         <section>
             <div>
-                <img class="imagen-principal" src="resources/Img_principal.jpg" alt="Imagen principal">
+                <img class="imagen-principal" src="resources/img_principal.jpg" alt="Imagen principal">
             </div>    
         </section>
         <!-- 3RA SECCION -->
-        <section>
-            <article>
-                <div class="seccion3">
-                    <h2> ELEGI TU DISEÑO </h2>
-                    <p class="seccion3__parrafo"> Diseñamos tu taza con tu logo </p>
-                    <img class="seccion3__imagen" src="resources/tu-logo-aqui.png" alt="Tu logo aquí">
-                    <p class="seccion3__parrafo"> Tu logo aquí </p>
+        <section class="seccion3">
+                <h2 class="seccion3__titulo"> ELEGI TU DISEÑO </h2>
+                <p class="seccion3__parrafo"> Diseñamos tu taza con tu logo </p>
+                <div class="seccion3__taza">
+                    <img class="seccion3__img" src="resources/tu-logo-aqui.png" alt="Tu logo aquí">
                 </div>
-            </article>  
+                <p class="seccion3__parrafo2"> Tu logo aquí </p> 
         </section>
         <!-- 4TA SECCION -->
-        <section>
-            <article>
-                <div class="seccion4">
-                    <h2> TAZAS MÁGICAS </h2>
-                    <p class="seccion4__parrafo">Llegaron las nuevas tazas mágicas!</p>
-                    <iframe class="seccion4__video" width="560" height="315" src="https://www.youtube.com/embed/3zk9sGj1M_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>   
-            </article>    
+        <section class="seccion4">
+                <h2 class="seccion4__titulo"> TAZAS MÁGICAS </h2>
+                <p class="seccion4__parrafo">Llegaron las nuevas tazas mágicas!</p>
+                <div class="seccion4__video">
+                    <iframe class="seccion4__tamano" width="560" height="315" src="https://www.youtube.com/embed/3zk9sGj1M_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>       
         </section>
     </main>
     <!-- FOOTER -->
