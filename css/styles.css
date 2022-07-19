@@ -316,6 +316,10 @@ footer {
 
 /* ANIMACIONES */
 
+.animation-logo:hover {
+    transform: scale(1.1,1.1);
+}
+
 .zoom:hover {
     transform: scale(1.05,1.05);
 }
@@ -324,6 +328,10 @@ footer {
 
 .nav-link {
     color: black;
+}
+
+.active {
+    color: blueviolet;
 }
 
 
