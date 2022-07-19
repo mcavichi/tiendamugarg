@@ -16,8 +16,7 @@ header {
 }
 
 .header__logo {
-    width: 120px;
-    display: flex;    
+    width: 120px;  
 }
 
 .header__lista {
@@ -315,6 +314,19 @@ footer {
     padding: 0 20px;
 }
 
+/* ANIMACIONES */
+
+.zoom:hover {
+    transform: scale(1.05,1.05);
+}
+
+/* BOOSTRAP */
+
+.nav-link {
+    color: black;
+}
+
+
 /* MEDIA QUERY DE CELULAR 
 99% SIEMPRE DEBE HABER UNA COLUMNA
 1% SON GALERIAS CUADRICULADAS QUE PUEDE TENER HASTA 3 COLUMNAS*/
@@ -325,7 +337,7 @@ footer {
     }
 
     .header__logo {
-        width: 110px;
+        width: 90px;
     }
 
     .header__lista {
