@@ -1,0 +1,23 @@
+{
+  "name": "tiendamugarg",
+  "version": "1.0.0",
+  "description": "<h1> Tienda Mug </h1>\r <p> Este sitio es para una tienda online de venta de tazas</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcavichi/tiendamugarg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcavichi/tiendamugarg/issues"
+  },
+  "homepage": "https://github.com/mcavichi/tiendamugarg#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

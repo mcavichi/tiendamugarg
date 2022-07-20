@@ -366,7 +366,10 @@ footer {
         align-items: center;
     }
 
-
+    .zoom:hover {
+        transform: none;
+    }
+    
     h1 {
         font-size: large;
     }
@@ -458,6 +461,10 @@ row-gap: 10px;
 /* MEDIA QUERY DE TABLET */
 
 @media (min-width: 576px) and (max-width: 992px) {
+
+    .zoom:hover {
+        transform: none;
+    }
 
     .seccion3__img {
         display: flex;
