@@ -45,29 +45,129 @@
         </nav>
     </header>
     <main>
-        <h2> PREGUNTAS FRECUENTES </h2>
+        <h2 class="titulo-pagina"> PREGUNTAS FRECUENTES </h2>
         <section class="preguntas">
-            <img class="preguntas__img" src="../resources/nino-pregunta-signo-interrogacion.png" alt="Interrogación">
-            <h4 class="preguntas__estilo">¿Realizan ventas mayoristas?</h4>
-            <p class="preguntas__respuesta">No realizamos ventas mayoristas en ninguna linea de producto.</p>
-            <h4 class="preguntas__estilo">¿Porque no publican precios en redes sociales?</h4>
-            <p class="preguntas__respuesta">En Argentina la situacion inflacionaria constante obliga a nuestros proveedores y a nosotros mantener periodicamente actualizados los precios. Para no generar confusiones con visitantes en publicaciones antiguas, tenemos el 100% de los precios en nuestra web.</p>
-            <h4 class="preguntas__estilo">¿Qué formas de pago puedo aprovechar para realizar mi compra?</h4>
-            <p class="preguntas__respuesta">Aceptamos pagos mediante tarjeta de crédito, debito y/o transferencia bancaria.</p>
-            <h4 class="preguntas__estilo">¿Cuál es el costo de envío?</h4>
-            <p class="preguntas__respuesta">El costo de envío será mostrado colocando tu codigo postal en el sector destinado a tal fin.</p>
-            <h4 class="preguntas__estilo">¿Cómo se realizan los envíos?</h4>
-            <p class="preguntas__respuesta">Trabajamos con: Andreani y Mercado Envios para Gba e Interior del Pais y servicio de moto mensajeria para CABA.</p>
-            <h4 class="preguntas__estilo">¿Dónde puedo recibir mi pedido?</h4>
-            <p class="preguntas__respuesta">Realizamos envíos a todo el país, podes seleccionar un punto de retiro que seria oficina de correo cercana a tu domicilio o entrega en domicilio directo.</p>
-            <h4 class="preguntas__estilo">¿Cuánto tarda en llegar el pedido?</h4>
-            <p class="preguntas__respuesta">El tiempo de entrega dependerá de los correos, podes ver un estimado con tu codigo postal sin necesidad de comenzar la operacion. </p>
-            <h4 class="preguntas__estilo">¿Cuál es el plazo para realizar un cambio?</h4>
-            <p class="preguntas__respuesta">Puedes solicitar un cambio hasta 30 días luego de realizada la compra.</p>
-            <h4 class="preguntas__estilo">¿Qué debo hacer si el producto no llega en buen estado?</h4>
-            <p class="preguntas__respuesta">Ponte en contacto con nosotros a tiendamugarg@gmail.com y te enviaremos uno nuevo.</p>
+                <img class="preguntas__img" src="../resources/nino-pregunta-signo-interrogacion.png" alt="Interrogación">
         </section>
-
+        <section>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <p class=fw-bold>¿Realizan ventas mayoristas?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <p><em>No, no realizamos ventas mayoristas en ninguna linea de producto.</em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <p class=fw-bold>¿Porque no publican precios en redes sociales?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <p><em>En Argentina la situacion inflacionaria constante obliga a nuestros proveedores y a nosotros mantener periodicamente actualizados los precios. Para no generar confusiones con visitantes en publicaciones antiguas, tenemos el 100% de los precios en nuestra web.</em></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- PREGUNTA 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <p class=fw-bold>¿Qué formas de pago puedo aprovechar para realizar mi compra?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <p><em>Aceptamos pagos mediante Mercado Pago, tarjeta de crédito, débito y/o transferencia bancaria.</em></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- PREGUNTA 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <p class=fw-bold>¿Cuál es el costo de envío?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <p><em>El costo de envío será mostrado colocando tu codigo postal en el sector destinado a tal fin.</em></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- PREGUNTA 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseOne">
+                        <p class=fw-bold>¿Cómo se realizan los envíos?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <p><em>Trabajamos con: Andreani y Mercado Envios para Gba e Interior del Pais y servicio de moto mensajeria para CABA.</em></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- PREGUNTA 6 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseOne">
+                        <p class=fw-bold>¿Dónde puedo recibir mi pedido?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <p><em>Realizamos envíos a todo el país, podes seleccionar un punto de retiro que seria la oficina de correo cercana a tu domicilio o entrega en domicilio directo.</em></p>
+                        </div>
+                    </div>
+                </div>                
+                <!-- PREGUNTA 7 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseOne">
+                        <p class=fw-bold>¿Cuánto tarda en llegar el pedido?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <p><em>El tiempo de entrega dependerá de los correos, podes ver un estimado con tu código postal sin necesidad de comenzar la operación.</em></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- PREGUNTA 8 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEigth">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEigth" aria-expanded="false" aria-controls="collapseOne">
+                        <p class=fw-bold>¿Cuál es el plazo para realizar un cambio?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseEigth" class="accordion-collapse collapse" aria-labelledby="headingEigth" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <p><em>Puedes solicitar un cambio hasta 30 días luego de realizada la compra.</em></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- PREGUNTA 9 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingNine">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        <p class=fw-bold>¿Qué debo hacer si el producto no llega en buen estado?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <p><em>Ponte en contacto con nosotros a tiendamugarg@gmail.com a fin de poder solucionarlo.</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <h3 class="footer__redes"> Seguinos en nuestras redes sociales</h3>

@@ -53,13 +53,13 @@ h1 {
     padding: 15px 0;
 }
 
-h2 {
+/*h2 {
     color: black;
     background-color: red;
     font-family: 'Roboto', sans-serif; 
     text-align: center; 
     padding: 10px 0;
-}
+}*/
 
 h3 {
     color: white;
@@ -73,7 +73,7 @@ h4 {
 
 /* BODY */
 body {
-    background-color: lightgrey ;
+    background-color: rgb(239, 235, 235) ;
 }
 
 /* FOOTER */
@@ -109,6 +109,18 @@ footer {
     text-align: center;
 }
 
+/* TITULOS DE LAS PAGINAS */
+
+.titulo-pagina {
+    color: black;
+    background-color: red;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center; 
+    padding: 10px 0;
+}
+
+
+
 /* SECCIONES DEL INDEX */
 .parrafo-principal {
     text-align: center;
@@ -124,7 +136,11 @@ footer {
 }
 
 .seccion3__titulo {
-    text-align: center;
+    color: black;
+    background-color: red;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center; 
+    padding: 10px 0;
 }
 
 .seccion3__parrafo {
@@ -151,7 +167,11 @@ footer {
 }
 
 .seccion4__titulo {
-    text-align: center;
+    color: black;
+    background-color: red;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center; 
+    padding: 10px 0;
 }
 
 .seccion4__parrafo {
@@ -288,15 +308,6 @@ footer {
 
 .preguntas__img {    
     width: 150px;
-}
-
-.preguntas__estilo {
-    padding: 10px 20px;
-    text-decoration: underline;
-}
-
-.preguntas__respuesta {
-    padding: 0 20px;
 }
 
 /* SOBRE NOSOTROS */
@@ -455,6 +466,16 @@ row-gap: 10px;
         grid-row: 7/8;
         width: 100vw;
         height: 50vh;
+    }
+
+    .preguntas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .preguntas__img {    
+        width: 90px;
     }
 }
 
