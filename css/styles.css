@@ -1,265 +1,438 @@
-*{
-    margin: 0px; /* MARGEN EXTERNO */
-    padding: 0px; /* MARGEN INTERNO */
-    box-sizing: border-box;
-}
+* {
+  margin: 0px;
+  /* MARGEN EXTERNO */
+  padding: 0px;
+  /* MARGEN INTERNO */
+  box-sizing: border-box; }
 
 /* HEADER */
-
 header {
-    background-color: white;
-    width: 100%;
-}
+  background-color: white;
+  width: 100%; }
 
 .header__nav {
-    display: flex;   
-}
+  display: flex; }
 
 .header__logo {
-    width: 120px;  
-}
+  width: 120px; }
 
 .header__lista {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    list-style: none; /* Que haya un punto adelante */
-    font-family: 'Titillium Web', sans-serif;
-    width: 100%;
-}
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  /* Que haya un punto adelante */
+  font-family: 'Titillium Web', sans-serif;
+  width: 100%; }
 
 .header__item {
-    display: flex;
-    padding: 15px;
-}
+  display: flex;
+  padding: 15px; }
 
 .header__item a {
-    color: black;
-    text-decoration: none;
-}
+  color: black;
+  text-decoration: none; }
 
 /* TEXTOS Y PARRAFOS */
-
 p {
-    font-family: 'Titillium Web', sans-serif;
-    padding: 5px 0;
-}
+  font-family: 'Titillium Web', sans-serif;
+  padding: 5px 0; }
 
 h1 {
-    font-family: 'Roboto', sans-serif; 
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 15px 0;
-}
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 15px 0; }
 
 h3 {
-    color: white;
-    background-color: black;
-    font-family: 'Titillium Web', sans-serif;;    
-}
+  color: white;
+  background-color: black;
+  font-family: 'Titillium Web', sans-serif; }
 
 h4 {
-    font-family: 'Titillium Web', sans-serif;
-}
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  background-color: black; }
 
 /* BODY */
 body {
-    background-color: rgb(239, 235, 235) ;
-}
+  background-color: #f9f5f5; }
 
 /* FOOTER */
 footer {
-    background-color: white;
-    color: black;
-}
+  background-color: white;
+  color: black; }
 
 .footer__redes {
-    text-align: center;
-}
+  text-align: center; }
 
 .footer__img {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-}
+  display: flex;
+  justify-content: center;
+  padding-top: 10px; }
 
 .footer__instagram {
-    align-content: center;  
-}
+  align-content: center; }
 
 .footer__facebook {
-    align-content: center;
-    padding-right: 2px;
-}
+  align-content: center;
+  padding-right: 2px; }
 
 .footer__whatsapp {
-    align-content: center;
-}
+  align-content: center; }
 
 .footer__derechos {
-    text-align: center;
-}
+  text-align: center; }
 
 /* TITULOS DE LAS PAGINAS */
-
 .titulo-pagina {
-    color: black;
-    background-color: red;
-    font-family: 'Roboto', sans-serif; 
-    text-align: center; 
-    padding: 15px 0;
-}
-
-
+  color: black;
+  background-color: red;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 15px 0; }
 
 /* SECCIONES DEL INDEX */
 .parrafo-principal {
-    text-align: center;
-}
+  text-align: center; }
 
 .imagen-principal {
-    width: 100%;   
-}
+  width: 100%; }
 
 .seccion3 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
+  padding-top: 15px;
+  padding-bottom: 15px; }
 
 .seccion3__titulo {
-    color: black;
-    background-color: red;
-    font-family: 'Roboto', sans-serif; 
-    text-align: center; 
-    padding: 10px 0;
-}
+  color: black;
+  background-color: red;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 10px 0; }
 
 .seccion3__parrafo {
-    text-align: center;
-}
+  text-align: center; }
 
 .seccion3__taza {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.seccion3__img {
+  width: 600px; }
+
+.seccion3__parrafo2 {
+  text-align: center; }
+
+.seccion4 {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.seccion4__titulo {
+  color: black;
+  background-color: red;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 10px 0; }
+
+.seccion4__parrafo {
+  text-align: center; }
+
+.seccion4__video {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.seccion4__tamano {
+  width: 700px; }
+
+/* CONTACTO */
+.contacto {
+  display: inline; }
+
+.contacto__titulo {
+  text-align: center; }
+
+.contacto__parrafo {
+  padding: 10px 10px 10px 10px; }
+
+.contacto__ubicacion {
+  width: 100%; }
+
+/* GRID */
+.mockup__grid {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  padding: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "mapa mapa mockup-1" "formulario formulario mockup-2" "mockup-4 mockup-4 mockup-3";
+  column-gap: 15px;
+  row-gap: 15px; }
+
+.mapa {
+  grid-area: mapa;
+  height: 100vh; }
+
+.mockup-1 {
+  grid-area: mockup-1;
+  background-image: url("../resources/mug_mockup_1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.mockup-2 {
+  grid-area: mockup-2;
+  background-image: url("../resources/mug_mockup_2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.mockup-3 {
+  grid-area: mockup-3;
+  background-image: url("../resources/mug_mockup_3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.mockup-4 {
+  grid-area: mockup-4;
+  background-image: url("../resources/mug_mockup_4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.texto-1 {
+  grid-area: texto-1;
+  display: flex;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  text-align: center; }
+
+.texto-2 {
+  grid-area: texto-2;
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  text-align: center; }
+
+.formulario {
+  grid-area: formulario;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* PRODUCTOS */
+.productos {
+  text-align: center; }
+
+.productos__galeria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4px 4px 4px 4px; }
+
+.productos__img {
+  width: 305px;
+  align-content: center;
+  align-self: center;
+  margin: 4px; }
+
+/* PREGUNTAS FRECUENTES */
+.preguntas {
+  padding: 10px 0; }
+
+.preguntas__img {
+  width: 150px; }
+
+/* SOBRE NOSOTROS */
+.nosotros {
+  padding: 10px 0; }
+
+.nosotros__pregunta {
+  padding: 10px 20px;
+  text-decoration: underline; }
+
+.nosotros__parrafo {
+  padding: 0 20px; }
+
+/* ANIMACIONES */
+.animation-logo:hover {
+  transform: scale(1.1, 1.1); }
+
+.zoom:hover {
+  transform: scale(1.05, 1.05); }
+
+/* BOOSTRAP */
+.nav-link {
+  color: black; }
+
+.active {
+  color: blueviolet; }
+
+/* MEDIA QUERY DE CELULAR 
+99% SIEMPRE DEBE HABER UNA COLUMNA
+1% SON GALERIAS CUADRICULADAS QUE PUEDE TENER HASTA 3 COLUMNAS*/
+@media (min-width: 320px) and (max-width: 575px) {
+  header {
+    width: 100vw; }
+  .header__logo {
+    width: 90px; }
+  .header__lista {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    padding-bottom: 10px; }
+  .header__item {
+    padding: 3px; }
+  .header__nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .zoom:hover {
+    transform: none; }
+  h1 {
+    font-size: large; }
+  h2 {
+    font-size: medium; }
+  .seccion3__img {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.seccion3__img {
-    width: 600px;
-}
-
-.seccion3__parrafo2 {
-    text-align: center;
-}
-
-.seccion4 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.seccion4__titulo {
-    color: black;
-    background-color: red;
-    font-family: 'Roboto', sans-serif; 
-    text-align: center; 
-    padding: 10px 0;
-}
-
-.seccion4__parrafo {
-    text-align: center;
-}
-
-.seccion4__video {
+    width: 300px; }
+  .seccion4__tamano {
     display: flex;
     justify-content: center;
-    align-items: center; 
-}
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 500px; }
+  .mockup__grid {
+    width: 100vw;
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8fr;
+    grid-template-areas: "mapa" "texto-1" "formulario" "mockup-1" "mockup-2" "texto-2" "mockup-3" "mockup-4";
+    column-gap: 10px;
+    row-gap: 10px; }
+  .mapa {
+    width: 100vw;
+    height: 50vh;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2; }
+  .texto-1 {
+    grid-column: 1/2;
+    grid-row: 2/3; }
+  .formulario {
+    grid-column: 1/2;
+    grid-row: 3/4; }
+  .mockup-1 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 100vw;
+    height: 50vh; }
+  .mockup-2 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    width: 100vw;
+    height: 50vh; }
+  .texto-2 {
+    grid-column: 1/2;
+    grid-row: 6/7; }
+  .mockup-3 {
+    grid-column: 1/2;
+    grid-row: 7/8;
+    width: 100vw;
+    height: 50vh; }
+  .mockup-4 {
+    grid-column: 1/2;
+    grid-row: 8/9;
+    width: 100vw;
+    height: 50vh; }
+  .productos__img {
+    width: 205px;
+    align-content: center;
+    align-self: center;
+    margin: 3px; }
+  .preguntas {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .preguntas__img {
+    width: 90px; } }
 
-.seccion4__tamano {
-    width: 700px;
-}
-
-/* CONTACTO */
-
-.contacto {
-    display: inline;
-}
-
-.contacto__titulo {
-    text-align: center;
-}
-
-.contacto__parrafo {
-    padding: 10px 10px 10px 10px;
-}
-
-.contacto__ubicacion {
-    width: 100%;
-}
-
-/* GRID */
-
-.mockup__grid {
+/* MEDIA QUERY DE TABLET */
+@media (min-width: 576px) and (max-width: 992px) {
+  .zoom:hover {
+    transform: none; }
+  .seccion3__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px; }
+  .seccion4__tamano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 600px; }
+  .mockup__grid {
+    width: 100vw;
     display: grid;
     padding: 15px;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-areas: "mapa mapa mockup-1"
-                        "texto-1 texto-2 mockup-2"
-                        "mockup-4 mockup-4 mockup-3";
-    column-gap: 15px;
-    row-gap: 15px;
-}
-
-.mapa {
-    grid-area: mapa;
-}
-
-.mockup-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-template-areas: "mapa mapa mapa" "formulario formulario formulario" "mockup-4 mockup-4 mockup-4";
+    column-gap: 10px;
+    row-gap: 10px; }
+  .mapa {
+    grid-area: mapa; }
+  .mockup-1 {
     grid-area: mockup-1;
     background-image: url("../resources/mug_mockup_1.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.mockup-2 {
+    background-repeat: no-repeat; }
+  .mockup-2 {
     grid-area: mockup-2;
     background-image: url("../resources/mug_mockup_2.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.mockup-3 {
+    background-repeat: no-repeat; }
+  .mockup-3 {
     grid-area: mockup-3;
     background-image: url("../resources/mug_mockup_3.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.mockup-4 {
+    background-repeat: no-repeat; }
+  .mockup-4 {
     grid-area: mockup-4;
     background-image: url("../resources/mug_mockup_4.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-.texto-1 {
+    background-repeat: no-repeat; }
+  .texto-1 {
     grid-area: texto-1;
     display: flex;
     background-color: red;
     justify-content: center;
     align-items: center;
     padding: 15px;
-    text-align: center;
-}
-
-.texto-2 {
+    text-align: center; }
+  .texto-2 {
     grid-area: texto-2;
     display: flex;
     background-color: black;
@@ -267,316 +440,9 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    text-align: center;
-}
-
-/* PRODUCTOS */
-
-.productos {
-    text-align: center;
-}
-
-.productos__galeria {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 4px 4px 4px 4px;
-}
-
-.productos__img {
-    width: 305px;
+    text-align: center; }
+  .productos__img {
+    width: 275px;
     align-content: center;
     align-self: center;
-    margin: 4px;
-    
-}
-
-/* PREGUNTAS FRECUENTES */
-
-.preguntas {
-    padding: 10px 0;
-}
-
-.preguntas__img {    
-    width: 150px;
-}
-
-/* SOBRE NOSOTROS */
-
-.nosotros {
-    padding: 10px 0;
-}
-
-.nosotros__pregunta {
-    padding: 10px 20px;
-    text-decoration: underline;
-}
-
-.nosotros__parrafo {
-    padding: 0 20px;
-}
-
-/* ANIMACIONES */
-
-.animation-logo:hover {
-    transform: scale(1.1,1.1);
-}
-
-.zoom:hover {
-    transform: scale(1.05,1.05);
-}
-
-/* BOOSTRAP */
-
-.nav-link {
-    color: black;
-}
-
-.active {
-    color: blueviolet;
-}
-
-
-/* MEDIA QUERY DE CELULAR 
-99% SIEMPRE DEBE HABER UNA COLUMNA
-1% SON GALERIAS CUADRICULADAS QUE PUEDE TENER HASTA 3 COLUMNAS*/
-
-@media (min-width: 320px) and (max-width: 575px) {    
-    header {
-        width: 100vw;
-    }
-
-    .header__logo {
-        width: 90px;
-    }
-
-    .header__lista {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: small;
-        padding-bottom: 10px;
-    }
-
-    .header__item {
-        padding: 3px;
-    }
-
-    .header__nav {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .zoom:hover {
-        transform: none;
-    }
-    
-    h1 {
-        font-size: large;
-    }
-
-    h2 {
-        font-size: medium;
-    }
-
-    .seccion3__img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
-    }
-
-    .seccion4__tamano {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 5px;
-        padding-right: 5px;
-        width: 500px;
-    }
-
-
-    .mockup__grid {
-        width: 100vw;
-        display: grid;
-        padding: 5px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 7fr;
-        grid-template-areas: "mapa"
-                            "texto-1"
-                            "mockup-1"
-                            "mockup-2"
-                            "texto-2"
-                            "mockup-3"
-                            "mockup-4";
-column-gap: 10px;
-row-gap: 10px;
-    }
-
-    .mapa {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-    
-    .texto-1 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    
-    .mockup-1 {
-        grid-column: 1/2;
-        grid-row: 3/4;
-        width: 100vw;
-        height: 50vh;
-    }
-    
-    .mockup-2 {
-        grid-column: 1/2;
-        grid-row: 4/5;
-        width: 100vw;
-        height: 50vh;
-    }
-    
-    .texto-2 {
-        grid-column: 1/2;
-        grid-row: 5/6;
-    }
-    
-    .mockup-3 {
-        grid-column: 1/2;
-        grid-row: 6/7;
-        width: 100vw;
-        height: 50vh;
-    }
-    
-    .mockup-4 {
-        grid-column: 1/2;
-        grid-row: 7/8;
-        width: 100vw;
-        height: 50vh;
-    }
-
-    .productos__img {
-        width: 205px;
-        align-content: center;
-        align-self: center;
-        margin: 3px;
-        
-    }
-
-    .preguntas {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .preguntas__img {    
-        width: 90px;
-    }
-}
-
-/* MEDIA QUERY DE TABLET */
-
-@media (min-width: 576px) and (max-width: 992px) {
-
-    .zoom:hover {
-        transform: none;
-    }
-
-    .seccion3__img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 400px;
-    }
-
-    .seccion4__tamano {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 600px;
-    }
-
-    .mockup__grid {
-        display: grid;
-        padding: 15px;
-        grid-template-columns: 1fr 1fr 1fr ;
-        grid-template-rows: 1fr 0.5fr 0.5fr ;
-        grid-template-areas: "mapa mapa mockup-1"
-                            "texto-1 texto-2 mockup-2"
-                            "mockup-4 mockup-4 mockup-3";
-        column-gap: 10px;
-        row-gap: 10px;
-    }
-    
-    .mapa {
-        grid-area: mapa;
-    }
-    
-    .mockup-1 {
-        grid-area: mockup-1;
-        background-image: url("../resources/mug_mockup_1.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .mockup-2 {
-        grid-area: mockup-2;
-        background-image: url("../resources/mug_mockup_2.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .mockup-3 {
-        grid-area: mockup-3;
-        background-image: url("../resources/mug_mockup_3.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .mockup-4 {
-        grid-area: mockup-4;
-        background-image: url("../resources/mug_mockup_4.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .texto-1 {
-        grid-area: texto-1;
-        display: flex;
-        background-color: red;
-        justify-content: center;
-        align-items: center;
-        padding: 15px;
-        text-align: center;
-    }
-    
-    .texto-2 {
-        grid-area: texto-2;
-        display: flex;
-        background-color: black;
-        color: white;
-        justify-content: center;
-        align-items: center;
-        padding: 15px;
-        text-align: center;
-    }
-
-    .productos__img {
-        width: 275px;
-        align-content: center;
-        align-self: center;
-        margin: 4px;
-        
-    }
-}
+    margin: 4px; } }
