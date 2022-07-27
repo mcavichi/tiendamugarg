@@ -401,36 +401,51 @@ footer {
     display: grid;
     padding: 15px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 0.5fr;
-    grid-template-areas: "mapa mapa mapa" "formulario formulario formulario" "mockup-4 mockup-4 mockup-4";
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
+    grid-template-areas: "mapa mapa mapa" "formulario formulario formulario" "mockup-1 mockup-2 mockup-3" "mockup-4 mockup-4 mockup-4";
     column-gap: 10px;
     row-gap: 10px; }
   .mapa {
-    grid-area: mapa; }
+    grid-area: mapa;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2; }
+  .formulario {
+    grid-column: 1/4;
+    grid-row: 2/3; }
   .mockup-1 {
     grid-area: mockup-1;
     background-image: url("../resources/mug_mockup_1.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    grid-column: 1/2;
+    grid-row: 3/4; }
   .mockup-2 {
     grid-area: mockup-2;
     background-image: url("../resources/mug_mockup_2.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    grid-column: 2/3;
+    grid-row: 3/4; }
   .mockup-3 {
     grid-area: mockup-3;
     background-image: url("../resources/mug_mockup_3.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    grid-column: 3/4;
+    grid-row: 3/4; }
   .mockup-4 {
     grid-area: mockup-4;
     background-image: url("../resources/mug_mockup_4.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    grid-column: 1/4;
+    grid-row: 4/5; }
   .texto-1 {
     grid-area: texto-1;
     display: flex;
