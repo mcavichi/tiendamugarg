@@ -57,7 +57,7 @@ h4 {
 
 /* BODY */
 body {
-  background-color: #f9f5f5; }
+  background-color: #f4ecec; }
 
 /* FOOTER */
 footer {
@@ -100,6 +100,9 @@ footer {
 .imagen-principal {
   width: 100%; }
 
+.seccion2__parrafo {
+  text-align: center; }
+
 .seccion3 {
   padding-top: 15px;
   padding-bottom: 15px; }
@@ -122,19 +125,21 @@ footer {
 .seccion3__img {
   width: 600px; }
 
-.seccion3__parrafo2 {
-  text-align: center; }
+.card-img-top:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s; }
+
+.btn-primary {
+  background-color: #535252;
+  color: white;
+  transition: all 0.5s; }
+
+.btn-primary:hover {
+  background-color: red; }
 
 .seccion4 {
   padding-top: 15px;
   padding-bottom: 15px; }
-
-.seccion4__titulo {
-  color: black;
-  background-color: red;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  padding: 10px 0; }
 
 .seccion4__parrafo {
   text-align: center; }
@@ -145,7 +150,9 @@ footer {
   align-items: center; }
 
 .seccion4__tamano {
-  width: 700px; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /* CONTACTO */
 .contacto {
@@ -155,7 +162,7 @@ footer {
   text-align: center; }
 
 .contacto__parrafo {
-  padding: 10px 10px 10px 10px; }
+  padding: 10px; }
 
 .contacto__ubicacion {
   width: 100%; }

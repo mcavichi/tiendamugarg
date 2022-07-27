@@ -1,4 +1,4 @@
-
+@import "variables";
 
 *{
     margin: 0px; /* MARGEN EXTERNO */
@@ -124,6 +124,10 @@ footer {
     width: 100%;   
 }
 
+.seccion2__parrafo {
+    text-align: center;
+}
+
 .seccion3 {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -151,21 +155,24 @@ footer {
     width: 600px;
 }
 
-.seccion3__parrafo2 {
-    text-align: center;
+.card-img-top:hover {
+    transform: scale(1.10,1.10);
+    transition: all 0.5s;
+}
+
+.btn-primary {
+    background-color: rgb(83, 82, 82);
+    color: white;
+    transition: all 0.5s;
+}
+
+.btn-primary:hover {
+    background-color: red;    
 }
 
 .seccion4 {
     padding-top: 15px;
     padding-bottom: 15px;
-}
-
-.seccion4__titulo {
-    color: black;
-    background-color: red;
-    font-family: 'Roboto', sans-serif; 
-    text-align: center; 
-    padding: 10px 0;
 }
 
 .seccion4__parrafo {
@@ -179,7 +186,9 @@ footer {
 }
 
 .seccion4__tamano {
-    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* CONTACTO */
