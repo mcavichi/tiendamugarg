@@ -1,0 +1,19 @@
+/* ANIMACIONES */
+
+.animation-logo:hover {
+    transform: scale(1.1,1.1);
+}
+
+.zoom:hover {
+    transform: scale(1.05,1.05);
+}
+
+/* BOOSTRAP */
+
+.nav-link {
+    color: $color-terciario;
+}
+
+.active {
+    color: blueviolet;
+}

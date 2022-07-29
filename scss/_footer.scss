@@ -1,0 +1,34 @@
+/* FOOTER */
+footer {
+    background-color: $color-principal;
+    color: $color-terciario;
+}
+
+.footer {
+    &__redes {
+        text-align: center;
+    }
+    
+    &__img {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    
+    &__instagram {
+        align-content: center;  
+    }
+    
+    &__facebook {
+        align-content: center;
+        padding-right: 2px;
+    }
+    
+    &__whatsapp {
+        align-content: center;
+    }
+    
+    &__derechos {
+        text-align: center;
+    }
+}

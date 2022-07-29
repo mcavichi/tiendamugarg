@@ -1,0 +1,270 @@
+/* MEDIA QUERY DE CELULAR 
+99% SIEMPRE DEBE HABER UNA COLUMNA
+1% SON GALERIAS CUADRICULADAS QUE PUEDE TENER HASTA 3 COLUMNAS*/
+
+@media (min-width: 320px) and (max-width: 575px) {    
+    header {
+        width: 100vw;
+    }
+
+    .header {
+        &__logo {
+            width: 90px;
+        }
+    
+        &__lista {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: small;
+            padding-bottom: 10px;
+        }
+    
+        &__item {
+            padding: 3px;
+        }
+    
+        &__nav {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .zoom:hover {
+        transform: none;
+    }
+    
+    h1 {
+        font-size: large;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    .seccion3__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .seccion4__tamano {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 500px;
+    }
+
+
+    .mockup__grid {
+        width: 100vw;
+        display: grid;
+        padding: 5px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 8fr;
+        grid-template-areas: "mapa"
+                            "texto-1"
+                            "formulario"
+                            "mockup-1"
+                            "mockup-2"
+                            "texto-2"
+                            "mockup-3"
+                            "mockup-4";
+column-gap: 10px;
+row-gap: 10px;
+    }
+
+    .mapa {
+        width: 100vw;
+        height: 50vh;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .texto-1 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .formulario {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    
+    .mockup-1 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        width: 100vw;
+        height: 50vh;
+    }
+    
+    .mockup-2 {
+        grid-column: 1/2;
+        grid-row: 5/6;
+        width: 100vw;
+        height: 50vh;
+    }
+    
+    .texto-2 {
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    
+    .mockup-3 {
+        grid-column: 1/2;
+        grid-row: 7/8;
+        width: 100vw;
+        height: 50vh;
+    }
+    
+    .mockup-4 {
+        grid-column: 1/2;
+        grid-row: 8/9;
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .productos__img {
+        width: 205px;
+        align-content: center;
+        align-self: center;
+        margin: 3px;
+        
+    }
+
+    .preguntas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__img {    
+            width: 90px;
+        }
+    }
+}
+
+/* MEDIA QUERY DE TABLET */
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .zoom:hover {
+        transform: none;
+    }
+
+    .seccion3__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+
+    .seccion4__tamano {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 600px;
+    }
+
+    .mockup__grid {
+        width: 100vw;
+        display: grid;
+        padding: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
+        grid-template-areas: "mapa mapa mapa"
+                            "formulario formulario formulario"
+                            "mockup-1 mockup-2 mockup-3"
+                            "mockup-4 mockup-4 mockup-4";
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    
+    .mapa {
+        grid-area: mapa;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .formulario {
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+    
+    .mockup-1 {
+        grid-area: mockup-1;
+        background-image: url("../resources/mug_mockup_1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    
+    .mockup-2 {
+        grid-area: mockup-2;
+        background-image: url("../resources/mug_mockup_2.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    
+    .mockup-3 {
+        grid-area: mockup-3;
+        background-image: url("../resources/mug_mockup_3.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    
+    .mockup-4 {
+        grid-area: mockup-4;
+        background-image: url("../resources/mug_mockup_4.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 1/4;
+        grid-row: 4/5;
+    }
+    
+    .texto-1 {
+        grid-area: texto-1;
+        display: flex;
+        background-color: $color-secundario;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .texto-2 {
+        grid-area: texto-2;
+        display: flex;
+        background-color: $color-terciario;
+        color: $color-principal;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .productos__img {
+        width: 275px;
+        align-content: center;
+        align-self: center;
+        margin: 4px;      
+    }
+}

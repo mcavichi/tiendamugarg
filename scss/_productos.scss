@@ -1,0 +1,21 @@
+/* PRODUCTOS */
+
+.productos {
+    text-align: center;
+
+    &__galeria {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 4px 4px 4px 4px;
+    }
+    
+    &__img {
+        width: 305px;
+        align-content: center;
+        align-self: center;
+        margin: 4px;
+        
+    }
+}

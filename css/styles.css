@@ -1,3 +1,4 @@
+/* COLORES */
 * {
   margin: 0px;
   /* MARGEN EXTERNO */
@@ -21,39 +22,29 @@ header {
   justify-content: flex-start;
   align-items: center;
   list-style: none;
-  /* Que haya un punto adelante */
   font-family: 'Titillium Web', sans-serif;
   width: 100%; }
 
 .header__item {
   display: flex;
   padding: 15px; }
+  .header__item a {
+    color: black;
+    text-decoration: none; }
 
-.header__item a {
-  color: black;
-  text-decoration: none; }
+/* ANIMACIONES */
+.animation-logo:hover {
+  transform: scale(1.1, 1.1); }
 
-/* TEXTOS Y PARRAFOS */
-p {
-  font-family: 'Titillium Web', sans-serif;
-  padding: 5px 0; }
+.zoom:hover {
+  transform: scale(1.05, 1.05); }
 
-h1 {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  background-color: black;
-  color: white;
-  padding: 15px 0; }
+/* BOOSTRAP */
+.nav-link {
+  color: black; }
 
-h3 {
-  color: white;
-  background-color: black;
-  font-family: 'Titillium Web', sans-serif; }
-
-h4 {
-  font-family: 'Titillium Web', sans-serif;
-  color: white;
-  background-color: black; }
+.active {
+  color: blueviolet; }
 
 /* BODY */
 body {
@@ -85,6 +76,28 @@ footer {
 .footer__derechos {
   text-align: center; }
 
+/* TEXTOS Y PARRAFOS */
+p {
+  font-family: 'Titillium Web', sans-serif;
+  padding: 5px 0; }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 15px 0; }
+
+h3 {
+  color: white;
+  background-color: black;
+  font-family: 'Titillium Web', sans-serif; }
+
+h4 {
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  background-color: black; }
+
 /* TITULOS DE LAS PAGINAS */
 .titulo-pagina {
   color: black;
@@ -94,78 +107,69 @@ footer {
   padding: 15px 0; }
 
 /* SECCIONES DEL INDEX */
+/* SECCION PRINCIPAL */
 .parrafo-principal {
   text-align: center; }
 
 .imagen-principal {
   width: 100%; }
 
+/* 2DA SECCION */
 .seccion2__parrafo {
   text-align: center; }
 
-.seccion3 {
-  padding-top: 15px;
-  padding-bottom: 15px; }
-
-.seccion3__titulo {
-  color: black;
-  background-color: red;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  padding: 10px 0; }
-
-.seccion3__parrafo {
-  text-align: center; }
-
-.seccion3__taza {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.seccion3__img {
-  width: 600px; }
-
-.card-img-top:hover {
+.seccion2__card-img-top:hover {
   transform: scale(1.1, 1.1);
   transition: all 0.5s; }
 
-.btn-primary {
+.seccion2__btn-primary {
   background-color: #535252;
   color: white;
   transition: all 0.5s; }
+  .seccion2__btn-primary:hover {
+    background-color: red; }
 
-.btn-primary:hover {
-  background-color: red; }
+/* 3RA SECCION */
+.seccion3 {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .seccion3__titulo {
+    color: black;
+    background-color: red;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 10px 0; }
+  .seccion3__parrafo {
+    text-align: center; }
+  .seccion3__taza {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
+/* 4TA SECCION */
 .seccion4 {
   padding-top: 15px;
   padding-bottom: 15px; }
-
-.seccion4__parrafo {
-  text-align: center; }
-
-.seccion4__video {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.seccion4__tamano {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  .seccion4__parrafo {
+    text-align: center; }
+  .seccion4__video {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .seccion4__tamano {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
 /* CONTACTO */
 .contacto {
   display: inline; }
-
-.contacto__titulo {
-  text-align: center; }
-
-.contacto__parrafo {
-  padding: 10px; }
-
-.contacto__ubicacion {
-  width: 100%; }
+  .contacto__titulo {
+    text-align: center; }
+  .contacto__parrafo {
+    padding: 10px; }
+  .contacto__ubicacion {
+    width: 100%; }
 
 /* GRID */
 .mockup__grid {
@@ -239,51 +243,32 @@ footer {
 /* PRODUCTOS */
 .productos {
   text-align: center; }
-
-.productos__galeria {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 4px 4px 4px 4px; }
-
-.productos__img {
-  width: 305px;
-  align-content: center;
-  align-self: center;
-  margin: 4px; }
+  .productos__galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4px 4px 4px 4px; }
+  .productos__img {
+    width: 305px;
+    align-content: center;
+    align-self: center;
+    margin: 4px; }
 
 /* PREGUNTAS FRECUENTES */
 .preguntas {
   padding: 10px 0; }
-
-.preguntas__img {
-  width: 150px; }
+  .preguntas__img {
+    width: 150px; }
 
 /* SOBRE NOSOTROS */
 .nosotros {
   padding: 10px 0; }
-
-.nosotros__pregunta {
-  padding: 10px 20px;
-  text-decoration: underline; }
-
-.nosotros__parrafo {
-  padding: 0 20px; }
-
-/* ANIMACIONES */
-.animation-logo:hover {
-  transform: scale(1.1, 1.1); }
-
-.zoom:hover {
-  transform: scale(1.05, 1.05); }
-
-/* BOOSTRAP */
-.nav-link {
-  color: black; }
-
-.active {
-  color: blueviolet; }
+  .nosotros__pregunta {
+    padding: 10px 20px;
+    text-decoration: underline; }
+  .nosotros__parrafo {
+    padding: 0 20px; }
 
 /* MEDIA QUERY DE CELULAR 
 99% SIEMPRE DEBE HABER UNA COLUMNA
@@ -377,8 +362,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center; }
-  .preguntas__img {
-    width: 90px; } }
+    .preguntas__img {
+      width: 90px; } }
 
 /* MEDIA QUERY DE TABLET */
 @media (min-width: 576px) and (max-width: 992px) {

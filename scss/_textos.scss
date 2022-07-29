@@ -1,0 +1,36 @@
+/* TEXTOS Y PARRAFOS */
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    padding: 5px 0;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    background-color: $color-terciario;
+    color: $color-principal;
+    padding: 15px 0;
+}
+
+h3 {
+    color: $color-principal;
+    background-color: $color-terciario;
+    font-family: 'Titillium Web', sans-serif;;    
+}
+
+h4 {
+    font-family: 'Titillium Web', sans-serif;
+    color: $color-principal;
+    background-color: $color-terciario;
+}
+
+/* TITULOS DE LAS PAGINAS */
+
+.titulo-pagina {
+    color: $color-terciario;
+    background-color: $color-secundario;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center; 
+    padding: 15px 0;
+}

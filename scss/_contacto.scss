@@ -1,0 +1,99 @@
+/* CONTACTO */
+
+.contacto {
+    display: inline;
+
+    &__titulo {
+        text-align: center;
+    }
+    
+    &__parrafo {
+        padding: 10px;
+    }
+    
+    &__ubicacion {
+        width: 100%;
+    }
+}
+
+/* GRID */
+
+.mockup__grid {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "mapa mapa mockup-1"
+                        "formulario formulario mockup-2"
+                        "mockup-4 mockup-4 mockup-3";
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.mapa {
+    grid-area: mapa;
+    height: 100vh;
+}
+
+.mockup-1 {
+    grid-area: mockup-1;
+    background-image: url("../resources/mug_mockup_1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mockup-2 {
+    grid-area: mockup-2;
+    background-image: url("../resources/mug_mockup_2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mockup-3 {
+    grid-area: mockup-3;
+    background-image: url("../resources/mug_mockup_3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mockup-4 {
+    grid-area: mockup-4;
+    background-image: url("../resources/mug_mockup_4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.texto-1 {
+    grid-area: texto-1;
+    display: flex;
+    background-color: $color-secundario;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.texto-2 {
+    grid-area: texto-2;
+    display: flex;
+    background-color: $color-terciario;
+    color: $color-principal;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.formulario {
+    grid-area: formulario;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
