@@ -1,12 +1,12 @@
 /* TEXTOS Y PARRAFOS */
 
 p {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: $fuente-principal;
     padding: 5px 0;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif; 
+    font-family: $fuente-titulos; 
     text-align: center;
     background-color: $color-terciario;
     color: $color-principal;
@@ -16,11 +16,11 @@ h1 {
 h3 {
     color: $color-principal;
     background-color: $color-terciario;
-    font-family: 'Titillium Web', sans-serif;;    
+    font-family: $fuente-principal;    
 }
 
 h4 {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: $fuente-principal;
     color: $color-principal;
     background-color: $color-terciario;
 }
@@ -30,7 +30,7 @@ h4 {
 .titulo-pagina {
     color: $color-terciario;
     background-color: $color-secundario;
-    font-family: 'Roboto', sans-serif; 
+    font-family: $fuente-titulos; 
     text-align: center; 
     padding: 15px 0;
 }

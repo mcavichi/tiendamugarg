@@ -1,2 +1,9 @@
 /* CONDICIONAL IF */
 
+@if (condicion a cumplir) {
+    /* CODIGO EN CASO QUE SE CUMPLA LA CONDICION */
+} @else {
+    /* CODIGO EN CASO QUE NO SE CUMPLA LA CONDICION*/
+}
+
+/* MAP - COLECCION DE VARIABLES (CLAVE-VALOR) */

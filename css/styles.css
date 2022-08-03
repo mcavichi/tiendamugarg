@@ -1,4 +1,5 @@
 /* COLORES */
+/* LETRAS */
 * {
   margin: 0px;
   /* MARGEN EXTERNO */
@@ -22,7 +23,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   list-style: none;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   width: 100%; }
 
 .header__item {
@@ -78,11 +79,11 @@ footer {
 
 /* TEXTOS Y PARRAFOS */
 p {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   padding: 5px 0; }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   background-color: black;
   color: white;
@@ -91,10 +92,10 @@ h1 {
 h3 {
   color: white;
   background-color: black;
-  font-family: 'Titillium Web', sans-serif; }
+  font-family: "Titillium Web", sans-serif; }
 
 h4 {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color: white;
   background-color: black; }
 
@@ -102,7 +103,7 @@ h4 {
 .titulo-pagina {
   color: black;
   background-color: red;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   padding: 15px 0; }
 
@@ -136,7 +137,7 @@ h4 {
   .seccion3__titulo {
     color: black;
     background-color: red;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     padding: 10px 0; }
   .seccion3__parrafo {
@@ -270,6 +271,9 @@ h4 {
   .nosotros__parrafo {
     padding: 0 20px; }
 
+/* CONDICIONAL IF */
+/* CODIGO EN CASO QUE SE CUMPLA LA CONDICION */
+/* MAP - COLECCION DE VARIABLES (CLAVE-VALOR) */
 /* MEDIA QUERY DE CELULAR 
 99% SIEMPRE DEBE HABER UNA COLUMNA
 1% SON GALERIAS CUADRICULADAS QUE PUEDE TENER HASTA 3 COLUMNAS*/

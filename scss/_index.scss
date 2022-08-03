@@ -41,7 +41,7 @@
     &__titulo {
         color: $color-terciario;
         background-color: $color-secundario;
-        font-family: 'Roboto', sans-serif; 
+        font-family: $fuente-titulos; 
         text-align: center; 
         padding: 10px 0;
     }
