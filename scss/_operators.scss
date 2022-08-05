@@ -1,9 +1,21 @@
-/* CONDICIONAL IF */
+/* EXTEND -- EXTENDER CODIGO */
 
-@if (condicion a cumplir) {
-    /* CODIGO EN CASO QUE SE CUMPLA LA CONDICION */
-} @else {
-    /* CODIGO EN CASO QUE NO SE CUMPLA LA CONDICION*/
+.background-centrado {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-/* MAP - COLECCION DE VARIABLES (CLAVE-VALOR) */
+.display-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MIXIN */
+
+@mixin flex($flex-direction, $justify, $align) {
+    flex-direction: $flex-direction;
+    justify-content: $justify;
+    align-items: $align;
+}

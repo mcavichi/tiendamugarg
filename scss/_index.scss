@@ -51,9 +51,7 @@
     }
     
     &__taza {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend .display-centrado;
     }   
 }
 
@@ -68,14 +66,10 @@
     }
     
     &__video {
-        display: flex;
-        justify-content: center;
-        align-items: center; 
+        @extend .display-centrado;
     }
     
     &__tamano {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend .display-centrado;
     }
 }

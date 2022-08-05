@@ -13,9 +13,8 @@
         }
     
         &__lista {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            display: flex;
+            @include flex(column, center, center);
             font-size: small;
             padding-bottom: 10px;
         }
@@ -25,14 +24,17 @@
         }
     
         &__nav {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            display: flex;
+            @include flex(column, center, center);
         }
     }
 
     .zoom:hover {
         transform: none;
+    }
+
+    .titulo-pagina {
+        font-size: large;
     }
     
     h1 {
@@ -59,6 +61,10 @@
         width: 500px;
     }
 
+
+    .contacto__titulo {
+        font-size: large;
+    }
 
     .mockup__grid {
         width: 100vw;
@@ -128,6 +134,10 @@ row-gap: 10px;
         grid-row: 8/9;
         width: 100vw;
         height: 50vh;
+    }
+
+    .productos {
+        font-size: large;
     }
 
     .productos__img {

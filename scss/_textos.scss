@@ -5,14 +5,6 @@ p {
     padding: 5px 0;
 }
 
-h1 {
-    font-family: $fuente-titulos; 
-    text-align: center;
-    background-color: $color-terciario;
-    color: $color-principal;
-    padding: 15px 0;
-}
-
 h3 {
     color: $color-principal;
     background-color: $color-terciario;
@@ -27,10 +19,19 @@ h4 {
 
 /* TITULOS DE LAS PAGINAS */
 
+.titulo-principal-index {
+    font-family: $fuente-titulos; 
+    text-align: center;
+    background-color: $color-terciario;
+    color: $color-principal;
+    padding: 15px 0;
+}
+
 .titulo-pagina {
     color: $color-terciario;
     background-color: $color-secundario;
     font-family: $fuente-titulos; 
+    font-size: xx-large;
     text-align: center; 
     padding: 15px 0;
 }

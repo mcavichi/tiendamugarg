@@ -40,60 +40,46 @@
 .mockup-1 {
     grid-area: mockup-1;
     background-image: url("../resources/mug_mockup_1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend .background-centrado;
 }
 
 .mockup-2 {
     grid-area: mockup-2;
     background-image: url("../resources/mug_mockup_2.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend .background-centrado;
 }
 
 .mockup-3 {
     grid-area: mockup-3;
     background-image: url("../resources/mug_mockup_3.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend .background-centrado;
 }
 
 .mockup-4 {
     grid-area: mockup-4;
     background-image: url("../resources/mug_mockup_4.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend .background-centrado;
 }
 
 
 .texto-1 {
     grid-area: texto-1;
-    display: flex;
     background-color: $color-secundario;
-    justify-content: center;
-    align-items: center;
     padding: 15px;
     text-align: center;
+    @extend .display-centrado;
 }
 
 .texto-2 {
     grid-area: texto-2;
-    display: flex;
     background-color: $color-terciario;
     color: $color-principal;
-    justify-content: center;
-    align-items: center;
     padding: 15px;
     text-align: center;
+    @extend .display-centrado;
 }
 
 .formulario {
     grid-area: formulario;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend .display-centrado;
 }

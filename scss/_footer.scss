@@ -10,8 +10,7 @@ footer {
     }
     
     &__img {
-        display: flex;
-        justify-content: center;
+        @extend .display-centrado;
         padding-top: 10px;
     }
     

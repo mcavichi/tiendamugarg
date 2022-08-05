@@ -60,8 +60,6 @@ footer {
   text-align: center; }
 
 .footer__img {
-  display: flex;
-  justify-content: center;
   padding-top: 10px; }
 
 .footer__instagram {
@@ -82,13 +80,6 @@ p {
   font-family: "Titillium Web", sans-serif;
   padding: 5px 0; }
 
-h1 {
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  background-color: black;
-  color: white;
-  padding: 15px 0; }
-
 h3 {
   color: white;
   background-color: black;
@@ -100,10 +91,18 @@ h4 {
   background-color: black; }
 
 /* TITULOS DE LAS PAGINAS */
+.titulo-principal-index {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 15px 0; }
+
 .titulo-pagina {
   color: black;
   background-color: red;
   font-family: "Roboto", sans-serif;
+  font-size: xx-large;
   text-align: center;
   padding: 15px 0; }
 
@@ -142,10 +141,6 @@ h4 {
     padding: 10px 0; }
   .seccion3__parrafo {
     text-align: center; }
-  .seccion3__taza {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
 
 /* 4TA SECCION */
 .seccion4 {
@@ -153,14 +148,6 @@ h4 {
   padding-bottom: 15px; }
   .seccion4__parrafo {
     text-align: center; }
-  .seccion4__video {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .seccion4__tamano {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
 
 /* CONTACTO */
 .contacto {
@@ -190,56 +177,35 @@ h4 {
 
 .mockup-1 {
   grid-area: mockup-1;
-  background-image: url("../resources/mug_mockup_1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background-image: url("../resources/mug_mockup_1.jpg"); }
 
 .mockup-2 {
   grid-area: mockup-2;
-  background-image: url("../resources/mug_mockup_2.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background-image: url("../resources/mug_mockup_2.jpg"); }
 
 .mockup-3 {
   grid-area: mockup-3;
-  background-image: url("../resources/mug_mockup_3.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background-image: url("../resources/mug_mockup_3.jpg"); }
 
 .mockup-4 {
   grid-area: mockup-4;
-  background-image: url("../resources/mug_mockup_4.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background-image: url("../resources/mug_mockup_4.jpg"); }
 
 .texto-1 {
   grid-area: texto-1;
-  display: flex;
   background-color: red;
-  justify-content: center;
-  align-items: center;
   padding: 15px;
   text-align: center; }
 
 .texto-2 {
   grid-area: texto-2;
-  display: flex;
   background-color: black;
   color: white;
-  justify-content: center;
-  align-items: center;
   padding: 15px;
   text-align: center; }
 
 .formulario {
-  grid-area: formulario;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  grid-area: formulario; }
 
 /* PRODUCTOS */
 .productos {
@@ -271,9 +237,18 @@ h4 {
   .nosotros__parrafo {
     padding: 0 20px; }
 
-/* CONDICIONAL IF */
-/* CODIGO EN CASO QUE SE CUMPLA LA CONDICION */
-/* MAP - COLECCION DE VARIABLES (CLAVE-VALOR) */
+/* EXTEND -- EXTENDER CODIGO */
+.background-centrado, .mockup-1, .mockup-2, .mockup-3, .mockup-4 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.display-centrado, .footer__img, .seccion3__taza, .seccion4__video, .seccion4__tamano, .texto-1, .texto-2, .formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* MIXIN */
 /* MEDIA QUERY DE CELULAR 
 99% SIEMPRE DEBE HABER UNA COLUMNA
 1% SON GALERIAS CUADRICULADAS QUE PUEDE TENER HASTA 3 COLUMNAS*/
@@ -283,6 +258,7 @@ h4 {
   .header__logo {
     width: 90px; }
   .header__lista {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -291,11 +267,14 @@ h4 {
   .header__item {
     padding: 3px; }
   .header__nav {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
   .zoom:hover {
     transform: none; }
+  .titulo-pagina {
+    font-size: large; }
   h1 {
     font-size: large; }
   h2 {
@@ -312,6 +291,8 @@ h4 {
     padding-left: 5px;
     padding-right: 5px;
     width: 500px; }
+  .contacto__titulo {
+    font-size: large; }
   .mockup__grid {
     width: 100vw;
     display: grid;
@@ -357,6 +338,8 @@ h4 {
     grid-row: 8/9;
     width: 100vw;
     height: 50vh; }
+  .productos {
+    font-size: large; }
   .productos__img {
     width: 205px;
     align-content: center;
