@@ -16,16 +16,17 @@
     }
     
     &__card-img-top {
+        padding-top: 11px;
         &:hover {
         transform: scale(1.10,1.10);
-        transition: all 0.5s;
+        transition: all 0.25s;
         }
     }
     
     &__btn-primary {
-        background-color: rgb(83, 82, 82);
+        background-color: black;
         color: $color-principal;
-        transition: all 0.5s;
+        transition: all 0.25s;
         &:hover {
             background-color: $color-secundario;    
         }

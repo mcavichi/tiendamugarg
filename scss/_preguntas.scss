@@ -1,9 +1,15 @@
 /* PREGUNTAS FRECUENTES */
 
 .preguntas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px 0;
 
     &__img {    
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 150px;
     }
 }

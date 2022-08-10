@@ -15,7 +15,13 @@
         width: 305px;
         align-content: center;
         align-self: center;
-        margin: 4px;
-        
+        margin: 4px;    
+    }
+
+    &__animacion {
+        &:hover {
+        transform: scale(1.025,1.025);
+        transition: all 0.25s;
+        }
     }
 }
