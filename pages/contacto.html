@@ -21,7 +21,7 @@
     <title>Tiendamugarg - Contacto</title>
 </head>
 <body>
-    <header>
+    <header> <!-- ENCABEZADO: incluye la barra de navegacion y el logo -->
         <nav class="navbar navbar-expand-lg header">
             <div class="container-fluid">
                 <a class="navbar-brand animation-logo" href="../index.html"><img src="../resources/logo.png" class="img-fluid header__logo animate__animated animate__zoomIn" alt=""></a>
@@ -55,6 +55,7 @@
                 <p class="contacto__parrafo2"> Dónde nos encontramos? Estamos ubicados en Las Heras 564, Muñiz. A unas 6 cuadras de la Estación Sgto. Cabral de la línea Urquiza y a unas 7 cuadras de la Estación Muñiz de la línea San Martín.</p>
             </div>
         </section>
+        <!-- GRID -->
         <section class="mockup__grid">
             <div class="mockup-1"></div>
             <div class="mockup-2"></div>
@@ -80,7 +81,7 @@
                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                         <label for="floatingTextarea2">Comentarios</label>
                     </div>
-                    <div class="py-3 ps-3">
+                    <div class="py-3">
                         <button type="button" class="btn btn-dark seccion2__btn-primary">Enviar</button>
                         <button type="button" class="btn btn-dark seccion2__btn-primary">Borrar</button>
                     </div>
@@ -90,14 +91,28 @@
             </div>
         </section>
     </main>
+    <!-- FOOTER -->
     <footer>
-        <h4 class="footer__redes"> Seguinos en nuestras redes sociales</h4>
-        <div class="footer__img">
-            <a class="footer__instagram" href="https://www.instagram.com/tiendamugarg/?hl=es" target="_blank"><img src="../resources/instagram-32x32.png" alt="Instagram"></a>
-            <a class="footer__facebook"  href="https://www.facebook.com/profile.php?id=100042932196882" target="_blank"><img src="../resources/facebook-32x32.png" alt="Facebook"></a>
-            <a class="footer__whatsapp"  href="https://wa.me/5492320673676" target="_blank"><img src="../resources/whatsapp-32x32.png" alt="Whatsapp"></a>
-        </div>
-        <p class="footer__derechos"> Copyright 2022 © Tienda Mug! Todos los derechos reservados </p>
+        <section class="container">
+            <div class="py-3">
+                <ul class="nav justify-content-center border-bottom pb-3">
+                    <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted class zoom">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted active zoom">Contacto</a></li>
+                    <li class="nav-item"><a href="../pages/productos.html" class="nav-link px-2 text-muted zoom">Productos</a></li>
+                    <li class="nav-item"><a href="../pages/preguntas-frecuentes.html" class="nav-link px-2 text-muted zoom">Preguntas Frecuentes</a></li>
+                    <li class="nav-item"><a href="../pages/sobre-nosotros.html" class="nav-link px-2 text-muted zoom">Sobre Nosotros</a></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <p class="text-center">STALKEANOS EN LAS REDES SOCIALES 😉</p>
+            <div class="footer__img pb-3">
+                    <a class="footer__instagram" href="https://www.instagram.com/tiendamugarg/?hl=es" target="_blank"><img src="../resources/instagram-32x32.png" alt="Instagram"></a>
+                    <a class="footer__facebook"  href="https://www.facebook.com/profile.php?id=100042932196882" target="_blank"><img src="../resources/facebook-32x32.png" alt="Facebook"></a>
+                    <a class="footer__whatsapp"  href="https://wa.me/5492320673676" target="_blank"><img src="../resources/whatsapp-32x32.png" alt="Whatsapp"></a>
+            </div>
+            <p class="footer__derechos">Copyright 2022 © Tienda Mug! Todos los derechos reservados.</p>
+        </section>
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

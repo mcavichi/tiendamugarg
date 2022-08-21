@@ -33,6 +33,19 @@
     }
 }
 
+.card__img {
+    width: 70px;
+}
+
+/* TARJETAS */
+
+.tarjetas__animacion:hover {
+    background-color: $color-secundario;
+    color: white;
+    cursor: pointer;
+    transition: all 1s;
+}
+
 /* 3RA SECCION */
 
 .seccion3 {

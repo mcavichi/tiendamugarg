@@ -49,7 +49,7 @@ header {
 
 /* BODY */
 body {
-  background-color: #f4ecec; }
+  background-color: #ececec; }
 
 /* FOOTER */
 footer {
@@ -58,9 +58,6 @@ footer {
 
 .footer__redes {
   text-align: center; }
-
-.footer__img {
-  padding-top: 10px; }
 
 .footer__instagram {
   align-content: center; }
@@ -130,6 +127,16 @@ h4 {
   transition: all 0.25s; }
   .seccion2__btn-primary:hover {
     background-color: red; }
+
+.card__img {
+  width: 70px; }
+
+/* TARJETAS */
+.tarjetas__animacion:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: all 1s; }
 
 /* 3RA SECCION */
 .seccion3 {
@@ -387,8 +394,8 @@ h4 {
     display: grid;
     padding: 15px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
-    grid-template-areas: "mapa mapa mapa" "formulario formulario formulario" "mockup-1 mockup-2 mockup-3" "mockup-4 mockup-4 mockup-4";
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-template-areas: "mapa mapa mapa" "formulario formulario formulario" "mockup-1 mockup-2 mockup-3";
     column-gap: 10px;
     row-gap: 10px; }
   .mapa {
