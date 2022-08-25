@@ -188,7 +188,7 @@ row-gap: 10px;
         display: grid;
         padding: 15px;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 0.5fr 0.5fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
         grid-template-areas: "mapa mapa mapa"
                             "formulario formulario formulario"
                             "mockup-1 mockup-2 mockup-3";
@@ -197,6 +197,7 @@ row-gap: 10px;
     }
     
     .mapa {
+        height: 100%;
         grid-area: mapa;
         grid-column-start: 1;
         grid-column-end: 4;

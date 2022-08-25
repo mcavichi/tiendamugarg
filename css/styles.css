@@ -44,9 +44,6 @@ header {
 .nav-link {
   color: black; }
 
-.active {
-  color: blueviolet; }
-
 /* BODY */
 body {
   background-color: #ececec; }
@@ -108,9 +105,6 @@ h4 {
 .parrafo-principal {
   text-align: center; }
 
-.imagen-principal {
-  width: 100%; }
-
 /* 2DA SECCION */
 .seccion2__parrafo {
   text-align: center; }
@@ -128,10 +122,10 @@ h4 {
   .seccion2__btn-primary:hover {
     background-color: red; }
 
+/* TARJETAS */
 .card__img {
   width: 70px; }
 
-/* TARJETAS */
 .tarjetas__animacion:hover {
   background-color: red;
   color: white;
@@ -154,7 +148,9 @@ h4 {
 /* 4TA SECCION */
 .seccion4 {
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px; }
   .seccion4__parrafo {
     text-align: center; }
 
@@ -167,7 +163,8 @@ h4 {
     padding: 10px;
     text-align: center; }
   .contacto__parrafo2 {
-    padding: 10px; }
+    padding-left: 10px;
+    padding-right: 10px; }
   .contacto__ubicacion {
     width: 100%; }
 
@@ -185,7 +182,7 @@ h4 {
 
 .mapa {
   grid-area: mapa;
-  height: 100vh; }
+  height: 100%; }
 
 .mockup-1 {
   grid-area: mockup-1;
@@ -264,7 +261,7 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.display-centrado, .footer__img, .seccion3__taza, .seccion4__video, .seccion4__tamano, .texto-1, .texto-2, .formulario {
+.display-centrado, .footer__img, .seccion3__taza, .seccion4__video, .texto-1, .texto-2, .formulario {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -394,11 +391,12 @@ h4 {
     display: grid;
     padding: 15px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
     grid-template-areas: "mapa mapa mapa" "formulario formulario formulario" "mockup-1 mockup-2 mockup-3";
     column-gap: 10px;
     row-gap: 10px; }
   .mapa {
+    height: 100%;
     grid-area: mapa;
     grid-column-start: 1;
     grid-column-end: 4;

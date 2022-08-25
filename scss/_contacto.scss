@@ -13,7 +13,8 @@
     }
 
     &__parrafo2 {
-        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     &__ubicacion {
@@ -39,7 +40,7 @@
 
 .mapa {
     grid-area: mapa;
-    height: 100vh;
+    height: 100%;
 }
 
 .mockup-1 {

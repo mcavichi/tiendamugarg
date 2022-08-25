@@ -4,10 +4,6 @@
     text-align: center;
 }
 
-.imagen-principal {
-    width: 100%;   
-}
-
 /* 2DA SECCION */
 
 .seccion2 {
@@ -24,7 +20,7 @@
     }
     
     &__btn-primary {
-        background-color: black;
+        background-color: $color-terciario;
         color: $color-principal;
         transition: all 0.25s;
         &:hover {
@@ -33,17 +29,19 @@
     }
 }
 
+/* TARJETAS */
+
 .card__img {
     width: 70px;
 }
 
-/* TARJETAS */
-
-.tarjetas__animacion:hover {
-    background-color: $color-secundario;
-    color: white;
-    cursor: pointer;
-    transition: all 1s;
+.tarjetas__animacion {
+    &:hover {
+        background-color: $color-secundario;
+        color: $color-principal;
+        cursor: pointer;
+        transition: all 1s;
+    }
 }
 
 /* 3RA SECCION */
@@ -74,16 +72,14 @@
 .seccion4 {
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 
     &__parrafo {
         text-align: center;
     }
     
     &__video {
-        @extend .display-centrado;
-    }
-    
-    &__tamano {
         @extend .display-centrado;
     }
 }
